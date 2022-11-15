@@ -1,0 +1,39 @@
+num = int(input("Enter your number "))
+def odd_or_even_number():
+    if num % 2 == 0:
+        print("The number is even")
+    else:
+        print("The number is odd")
+
+odd_or_even_number()
+
+
+def quantity_of_water_bottles(x, y):
+    num_of_bottles = y / x
+    print(num_of_bottles)
+
+quantity_of_water_bottles(1.5, 9)
+
+
+n = int(input("Enter your age"))
+def permission_to_participate(a, b):
+    if a <= n <= b:
+        print("You can participate!")
+    else:
+        print("You can not participate!")
+
+permission_to_participate(10, 20)
+
+
+
+
+def kids_age(a, b):
+    if a > b:
+        c = a - b
+        print("The first kid is older with " + str(c) + " years!")
+    elif a < b:
+        d = b - a
+        print("The second kid is older with " + str(d) + " years!")
+    else:
+        print("The kids are pears!")
+kids_age(10, 20)
